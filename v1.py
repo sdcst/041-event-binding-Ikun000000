@@ -9,7 +9,7 @@ def minions(event):
     
 def Superidol(event):
     print(event)
-    p.playsound("")
+    p.playsound("Dancing Funeral Coffin MeMe - Original Ful Version 1080p.mp3")
 
 def fbi(event):
     print(event)
@@ -31,26 +31,18 @@ win = tk.Tk()
 win.title()
 
 l1 = tk.Label(win,text="Press any button to play a sound")
-l2 = tk.Button(win, text="gegagedigedagedago", relief=GROOVE, width=20)
+l2 = tk.Button(win, text="gegagedigedagedago",width=20)
 l2.bind("<Button>", minions)
-l3 = tk.Button(win, text="",relief=GROOVE,width=20)
+l3 = tk.Button(win, text="",width=20)
 l3.bind("<Button>", )
-l4 = tk.Button(win, text="",relief=GROOVE,width=20)
+l4 = tk.Button(win, text="",width=20)
 l4.bind("<Button>", )
-l5 = tk.Button(win, text="",relief=GROOVE,width=20)
+l5 = tk.Button(win, text="",width=20)
 l5.bind("<Button>", )
-l6 = tk.Button(win, text="",relief=GROOVE,width=20)
+l6 = tk.Button(win, text="",width=20)
 l6.bind("<Button>", Superidol)
-l7 = tk.Button(win, text="",relief=GROOVE,width=20)
+l7 = tk.Button(win, text="",width=20)
 l7.bind("<Button>", headshot)
-
-l1.grid(row=1, column=2)
-l2.grid(row=2, column=1)
-l3.grid(row=2, column=2)
-l4.grid(row=2, column=3)
-l5.grid(row=3, column=1)
-l6.grid(row=3, column=2)
-l7.grid(row=3, column=3)
 
 
 win.mainloop()
